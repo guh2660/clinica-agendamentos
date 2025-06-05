@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🩺 Clínica Agendamentos
+Sistema web para gerenciamento de agendamentos em clínicas médicas, desenvolvido com foco em performance, acessibilidade e boas práticas modernas de desenvolvimento.
 
-## Getting Started
 
-First, run the development server:
+📦 Tecnologias Utilizadas
+Next.js 13 (App Router)
 
-```bash
+TypeScript
+
+Tailwind CSS para estilização
+
+Drizzle ORM para mapeamento objeto-relacional
+
+PostgreSQL como banco de dados relacional
+
+ESLint e Prettier para padronização de código
+
+Zod para validação de dados
+
+React Hook Form para gerenciamento de formulários
+
+🚀 Como Executar Localmente
+Clone o repositório:
+
+bash
+Copiar
+Editar
+git clone https://github.com/guh2660/clinica-agendamentos.git
+cd clinica-agendamentos
+Instale as dependências:
+
+bash
+Copiar
+Editar
+npm install
+# ou
+yarn install
+Configure as variáveis de ambiente:
+
+Crie um arquivo .env.local na raiz do projeto com as seguintes variáveis:
+
+env
+Copiar
+Editar
+DATABASE_URL=postgresql://usuario:senha@localhost:5432/clinica
+Execute as migrações (se aplicável):
+
+bash
+Copiar
+Editar
+npm run db:migrate
+Inicie o servidor de desenvolvimento:
+
+bash
+Copiar
+Editar
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O aplicativo estará disponível em http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📁 Estrutura de Pastas
+ruby
+Copiar
+Editar
+├── src/
+│   ├── app/             # Páginas e rotas
+│   ├── components/      # Componentes reutilizáveis
+│   ├── lib/             # Configurações e utilitários
+│   ├── db/              # Configurações do banco de dados
+│   └── styles/          # Estilos globais
+├── public/              # Arquivos públicos
+├── .vscode/             # Configurações do editor
+├── .gitignore
+├── drizzle.config.ts    # Configuração do Drizzle ORM
+├── next.config.ts       # Configuração do Next.js
+├── package.json
+└── README.md
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+✅ Funcionalidades
+Cadastro e autenticação de usuários
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Agendamento de consultas médicas
 
-## Learn More
+Visualização de horários disponíveis
 
-To learn more about Next.js, take a look at the following resources:
+Painel administrativo para gestão de agendamentos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Responsividade para dispositivos móveis
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📌 Próximas Implementações
+Integração com sistemas de pagamento
 
-## Deploy on Vercel
+Notificações por e-mail e SMS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Dashboard com estatísticas de agendamentos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Suporte a múltiplas especialidades médicas
+
