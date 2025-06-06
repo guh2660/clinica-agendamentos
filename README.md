@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🏥 SaaS de Agendamento para Clínicas — Em Desenvolvimento
 
-## Getting Started
+⚠️ Aviso
+Este projeto está em desenvolvimento ativo. Algumas funcionalidades ainda podem estar incompletas ou instáveis. Use-o com cuidado e acompanhe as atualizações!
 
-First, run the development server:
+📋 Sobre o Projeto
+Este SaaS tem como objetivo facilitar o agendamento de consultas para clínicas médicas, oferecendo uma plataforma simples e eficiente para gerenciamento de profissionais, pacientes e horários.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🚀 Funcionalidades Planejadas
+✅ Cadastro e login de usuários (clínicas, profissionais e pacientes)  
+🔄 Agendamento, edição e cancelamento de consultas  
+📅 Visualização de agendas (diária, semanal e mensal)  
+🔔 Notificações por e-mail e SMS  
+🕒 Controle de disponibilidade dos profissionais  
+📊 Relatórios de agendamentos e estatísticas  
+🔗 Integração com sistemas externos e pagamentos  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🛠️ Tecnologias Utilizadas
+* Frontend: React / Vue / Angular
+* Backend: Node.js + Express
+* Banco de Dados: MongoDB / PostgreSQL
+* Autenticação: JWT / OAuth
+* Serviços de e-mail: SendGrid, Mailgun, etc.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+🗺️ Roadmap  
+🟩 Configuração inicial do backend  
+🟩 Implementação do sistema de autenticação  
+🟨 Desenvolvimento do módulo de agendamento  
+🟥 Painel administrativo para clínicas  
+🟥 Notificações automatizadas  
+🟥 UI responsiva e amigável  
+🟥 Testes automatizados e documentação  
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
