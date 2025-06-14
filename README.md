@@ -1,37 +1,35 @@
-🏥 SaaS de Agendamento para Clínicas — Em Desenvolvimento
+## Roteiro Aula 01: Setup do Projeto
 
-⚠️ Aviso
-Este projeto está em desenvolvimento ativo. Algumas funcionalidades ainda podem estar incompletas ou instáveis. Use-o com cuidado e acompanhe as atualizações!
+- [x] Inicialização do projeto Next.js
+- [x] Configuração de ferramentas (ESlint, Prettier, Tailwind)
+- [x] Configuração do Drizzle e banco de dados
+- [x] Configuração do shadcn/ui
 
-📋 Sobre o Projeto
-Este SaaS tem como objetivo facilitar o agendamento de consultas para clínicas médicas, oferecendo uma plataforma simples e eficiente para gerenciamento de profissionais, pacientes e horários.
+## Roteiro Aula 02: Autenticação e Configurações do Estabelecimento
 
-🚀 Funcionalidades Planejadas
-✅ Cadastro e login de usuários (clínicas, profissionais e pacientes)  
-🔄 Agendamento, edição e cancelamento de consultas  
-📅 Visualização de agendas (diária, semanal e mensal)  
-🔔 Notificações por e-mail e SMS  
-🕒 Controle de disponibilidade dos profissionais  
-📊 Relatórios de agendamentos e estatísticas  
-🔗 Integração com sistemas externos e pagamentos  
+- [x] Tela de login e criação de conta
+- [x] Login com e-mail e senha
+- [x] Login com o Google
+- [x] Fundamentos do Next.js (Rotas, Páginas, Layouts)
+- [x] Criação de clínica
 
+## Roteiro Aula 03: Gerenciamento de Profissionais e Disponibilidade
 
-🛠️ Tecnologias Utilizadas
-* Frontend: React / Vue / Angular
-* Backend: Node.js + Express
-* Banco de Dados: MongoDB / PostgreSQL
-* Autenticação: JWT / OAuth
-* Serviços de e-mail: SendGrid, Mailgun, etc.
+- [x] Sidebar e Route Groups
+- [x] Página de médicos
+- [x] Criação de médicos & NextSafeAction
+- [x] Listagem de médicos
+- [x] Atualização de médicos
+- [x] Deleção de médicos
 
+## Roteiro Aula 04: Gerenciamento de Pacientes e Agendamentos
 
-🗺️ Roadmap  
-🟩 Configuração inicial do backend  
-🟩 Implementação do sistema de autenticação  
-🟨 Desenvolvimento do módulo de agendamento  
-🟥 Painel administrativo para clínicas  
-🟥 Notificações automatizadas  
-🟥 UI responsiva e amigável  
-🟥 Testes automatizados e documentação  
+- [] Criação de pacientes
+- [] Edição de pacientes
+- [] Listagem de pacientes
+- [] Deleção de pacientes
+- [] Criação de agendamentos
+- [] Listagem de agendamentos
+- [] Deleção de agendamentos
 
-
-
+---

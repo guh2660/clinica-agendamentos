@@ -29,7 +29,7 @@ export const upsertDoctorSchema = z
       message:
         "O horário de início não pode ser anterior ao horário de término.",
       path: ["availableToTime"],
-    }
+    },
   );
 
 export type UpsertDoctorSchema = z.infer<typeof upsertDoctorSchema>;

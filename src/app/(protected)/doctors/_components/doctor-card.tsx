@@ -36,7 +36,7 @@ import { Separator } from "@/components/ui/separator";
 import { doctorsTable } from "@/db/schema";
 import { formatCurrencyInCents } from "@/helpers/currency";
 
-import { getAvailability } from "../_helpers/avaliability";
+import { getAvailability } from "../_helpers/availability";
 import UpsertDoctorForm from "./upsert-doctor-form";
 
 interface DoctorCardProps {
@@ -110,6 +110,7 @@ const DoctorCard = ({ doctor }: DoctorCardProps) => {
               availableToTime: availability.to.format("HH:mm:ss"),
             }}
             onSuccess={() => setIsUpsertDoctorDialogOpen(false)}
+            isOpen={isUpsertDoctorDialogOpen}
           />
         </Dialog>
         <AlertDialog>

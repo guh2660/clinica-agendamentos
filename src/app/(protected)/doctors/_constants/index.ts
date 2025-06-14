@@ -54,5 +54,5 @@ export const medicalSpecialties = Object.entries(MedicalSpecialty).map(
   ([key, value]) => ({
     value: MedicalSpecialty[key as keyof typeof MedicalSpecialty],
     label: value,
-  })
+  }),
 );

@@ -57,7 +57,7 @@ const LoginForm = () => {
         onError: () => {
           toast.error("E-mail ou senha inválidos.");
         },
-      }
+      },
     );
   };
 

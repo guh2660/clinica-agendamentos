@@ -36,6 +36,5 @@ export const upsertPatient = actionClient
           ...parsedInput,
         },
       });
-
     revalidatePath("/patients");
   });
